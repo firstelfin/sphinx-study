@@ -1,0 +1,7 @@
+app\_func module
+================
+
+.. automodule:: app_func
+   :members:
+   :undoc-members:
+   :show-inheritance:
