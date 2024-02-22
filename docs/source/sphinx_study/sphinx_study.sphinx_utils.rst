@@ -1,8 +1,6 @@
 sphinx\_study.sphinx\_utils
 ===================================
 
-Submodules
-----------
 
 sphinx\_study.sphinx\_utils.app\_func module
 --------------------------------------------
@@ -20,10 +18,4 @@ sphinx\_study.sphinx\_utils.post\_op module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
 
-.. automodule:: sphinx_utils
-   :members:
-   :undoc-members:
-   :show-inheritance:
