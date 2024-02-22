@@ -8,7 +8,7 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('/data1/2024_project/Sphinx_test/'))
+sys.path.insert(0, os.path.abspath('../../Sphinx_study/'))
 
 project = 'sphinx-repo'
 copyright = '2024, firstelfin'
