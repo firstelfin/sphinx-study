@@ -8,3 +8,4 @@ Python基础设置
 
    python_code
    python_repo
+   python_non_code
