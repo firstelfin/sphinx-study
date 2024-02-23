@@ -26,7 +26,7 @@ class SuppressParam(BaseModel):
 
     :math:
 
-        `State(k,W,T_{s},T,\sigma) = I(k \times \Delta_{W} + \sigma \times (T_{s} + W - T) - 1 + \delta)`
+        State(k,W,T_{s},T,\sigma) = I(k \times \Delta_{W} + \sigma \times (T_{s} + W - T) - 1 + \delta)
     
     """
 
