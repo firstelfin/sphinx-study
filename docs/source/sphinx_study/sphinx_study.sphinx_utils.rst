@@ -1,8 +1,7 @@
 sphinx\_study.sphinx\_utils package
 ===================================
 
-Submodules
-----------
+
 
 sphinx\_study.sphinx\_utils.app\_func module
 --------------------------------------------
