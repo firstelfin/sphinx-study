@@ -30,14 +30,15 @@ class SuppressParam(BaseModel):
     
     """
 
-    reportNum:  Optional[int] = None      # 上次异常上报后, 识别到的异常数量
-    suppressWinSize:    float = 4         # 设置的异常周期, 单位小时
-    lastTime: Optional[float] = .0        # 上次异常上报请求的时间戳, 单位秒
-    maxEpoch:   Optional[int] = 2         # 最大重置周期
+    reportNum:  Optional[int] = None      #: 上次异常上报后, 识别到的异常数量
+    suppressWinSize:    float = 4         #: 设置的异常周期, 单位小时
+    lastTime: Optional[float] = .0        #: 上次异常上报请求的时间戳, 单位秒
+    maxEpoch:   Optional[int] = 2         #: 最大重置周期
 
 
 def post_suppress(suppress: SuppressParam, delta: float = 0.95, cf=12, percent=None):
     """
+    
     :param suppress: 抑制参数对象
     :type suppress: SuppressParam
     :param delta: 显著性指标
