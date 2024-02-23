@@ -10,30 +10,30 @@ from pydantic import BaseModel
 from typing import Union, List, Dict, Optional
 
 
-# class SuppressParam(BaseModel):
-#     """
+class SuppressParam(BaseModel):
+    """
 
-#     :param reportNum:       默认None, 上次异常上报后, 识别到的异常数量
-#     :type reportNum:        [int, None]
-#     :param suppressWinSize: 默认4     设置的异常周期, 单位小时
-#     :type suppressWinSize:  int
-#     :param lastTime:        默认0.0   上次异常上报请求的时间戳, 单位秒
-#     :type lastTime:         float
-#     :param maxEpoch:        默认2     最大重置周期
-#     :type maxEpoch:         int
+    :param reportNum:       默认None, 上次异常上报后, 识别到的异常数量
+    :type reportNum:        [int, None]
+    :param suppressWinSize: 默认4     设置的异常周期, 单位小时
+    :type suppressWinSize:  int
+    :param lastTime:        默认0.0   上次异常上报请求的时间戳, 单位秒
+    :type lastTime:         float
+    :param maxEpoch:        默认2     最大重置周期
+    :type maxEpoch:         int
 
-#     参数用于处理：
+    参数用于处理：
 
-#     :math:
+    :math:
 
-#         State(k,W,T_{s},T,\sigma) = I(k \times \Delta_{W} + \sigma \times (T_{s} + W - T) - 1 + \delta)
+        State(k,W,T_{s},T,\sigma) = I(k \times \Delta_{W} + \sigma \times (T_{s} + W - T) - 1 + \delta)
     
-#     """
+    """
 
-#     reportNum:  Optional[int] = None      # 上次异常上报后, 识别到的异常数量
-#     suppressWinSize:    float = 4         # 设置的异常周期, 单位小时
-#     lastTime: Optional[float] = .0        # 上次异常上报请求的时间戳, 单位秒
-#     maxEpoch:   Optional[int] = 2         # 最大重置周期
+    reportNum:  Optional[int] = None      # 上次异常上报后, 识别到的异常数量
+    suppressWinSize:    float = 4         # 设置的异常周期, 单位小时
+    lastTime: Optional[float] = .0        # 上次异常上报请求的时间戳, 单位秒
+    maxEpoch:   Optional[int] = 2         # 最大重置周期
 
 
 def post_suppress(suppress: SuppressParam, delta: float = 0.95, cf=12, percent=None):
