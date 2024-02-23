@@ -10,6 +10,11 @@ from pydantic import BaseModel
 from typing import Union, List, Dict, Optional
 
 
+class TestClass(object):
+
+    a: int = 0             #: 测试
+
+
 class SuppressParam(BaseModel):
     """
 
@@ -38,7 +43,7 @@ class SuppressParam(BaseModel):
 
 def post_suppress(suppress: SuppressParam, delta: float = 0.95, cf=12, percent=None):
     """
-    
+
     :param suppress: 抑制参数对象
     :type suppress: SuppressParam
     :param delta: 显著性指标
