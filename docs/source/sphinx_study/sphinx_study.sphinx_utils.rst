@@ -1,7 +1,8 @@
 sphinx\_study.sphinx\_utils package
 ===================================
 
-
+Submodules
+----------
 
 sphinx\_study.sphinx\_utils.app\_func module
 --------------------------------------------
@@ -15,7 +16,6 @@ sphinx\_study.sphinx\_utils.post\_op module
 -------------------------------------------
 
 .. automodule:: sphinx_study.sphinx_utils.post_op
-   :imported-members:
    :members:
    :undoc-members:
    :show-inheritance:
