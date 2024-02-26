@@ -10,7 +10,11 @@ from pydantic import BaseModel
 from typing import Union, List, Dict, Optional
 
 
-class TestClass(object):
+def test(a: str) -> int:
+    """测试
 
-    a: int = 0             #: 测试
+    :param str a: 输入参数
+    :return int: 输出参数
+    """
+    return int(a)
 
