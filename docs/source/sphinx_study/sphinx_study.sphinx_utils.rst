@@ -12,10 +12,10 @@ sphinx\_study.sphinx\_utils.app\_func module
    :undoc-members:
    :show-inheritance:
 
-sphinx\_study.sphinx\_utils.post\_op module
--------------------------------------------
+sphinx\_study.sphinx\_utils.op module
+-------------------------------------
 
-.. automodule:: sphinx_study.sphinx_utils.post_op
+.. automodule:: sphinx_study.sphinx_utils.op
    :members:
    :undoc-members:
    :show-inheritance:
