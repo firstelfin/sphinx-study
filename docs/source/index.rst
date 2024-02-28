@@ -14,6 +14,8 @@ python的Shpinx 项目构建
    :maxdepth: 2
    :caption: 导航
 
+   usage
+   api
    document/extensions/extension
    document/python/python
    document/rst语法/res_usage
